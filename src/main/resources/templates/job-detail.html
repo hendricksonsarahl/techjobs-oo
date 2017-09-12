@@ -13,8 +13,12 @@
     <div th:objest="${job}">
         <table class="job-listing">
             <tr>
-                <th>Job Name</th>
+                <th>Job Title</th>
                 <td th:text="${job.name}"></td>
+            </tr>
+            <tr>
+                <th>Employer</th>
+                <td th:text="${job.employer}"></td>
             </tr>
             <tr>
                 <th>Location</th>
@@ -25,7 +29,7 @@
                 <td th:text="${job.positionType}"></td>
             </tr>
             <tr>
-                <th>Core Competency</th>
+                <th>Skill</th>
                 <td th:text="${job.coreCompetency}"></td>
             </tr>
         </table>
