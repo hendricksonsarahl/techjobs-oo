@@ -16,7 +16,7 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * Created by LaunchCode
+ * Created by LaunchCode and Sarah Hendrickson
  */
 public class JobDataImporter {
 
